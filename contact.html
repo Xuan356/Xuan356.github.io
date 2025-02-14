@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research - Your Lab Name</title>
+    <title>Contact - Your Lab Name</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -23,25 +23,21 @@
         </div>
     </header>
 
-    <!-- Research Section -->
-    <section id="research" class="section">
+    <!-- Contact Section -->
+    <section id="contact" class="section">
         <div class="container">
-            <h2>Research</h2>
-            <p>Our lab focuses on the following research areas:</p>
-            <div class="research-grid">
-                <div class="research-item">
-                    <h3>Research Topic 1</h3>
-                    <p>Description of research topic 1.</p>
-                </div>
-                <div class="research-item">
-                    <h3>Research Topic 2</h3>
-                    <p>Description of research topic 2.</p>
-                </div>
-                <div class="research-item">
-                    <h3>Research Topic 3</h3>
-                    <p>Description of research topic 3.</p>
-                </div>
-            </div>
+            <h2>Contact Us</h2>
+            <p>Email: your-email@example.com</p>
+            <p>Address: Your Lab Address</p>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </section>
 
